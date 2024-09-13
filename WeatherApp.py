@@ -29,7 +29,7 @@ def get_weather(api_key, city):
 
 
 def main_menu():
-    api_key = "17b6a8f97d0d8781ed24d72e64ca1330"
+    api_key = "API KEY"
     city = input("Enter city name: ")
     get_weather(api_key, city)
 
